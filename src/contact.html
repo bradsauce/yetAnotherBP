@@ -29,7 +29,7 @@
 	        	<ul class="nav nav-pills">
 	  				<li role="presentation"><a href="index.html">Home</a></li>
 	  				<li role="presentation"><a href="product.html">Product</a></li>
-	  				<li role="presentation"><a href="order.html">Order Form</a></li>
+	  				<li role="presentation"><a href="order.html">Watch</a></li>
 	  				<li role="presentation"><a href="about.html">About Us</a></li>
 	  				<li role="presentation"><a href="contact.html">Contact</a></li>
 				</ul>
@@ -41,12 +41,16 @@
 	        <h1>Need to Contact Us?</h1>
 	        <p>
 	        	At Apple we want you to have a good experience.<br>
-	        	If you have any issues with our product, feel free to contact us.<br><br>
-	        	Our company phone is: 555-5555<br><br>
-	        	Our company email is: apple@apple.com<br><br>
-	        	
-	        	
+	        	If you have any issues with our product, feel free to contact us.<br><br>	        	
 	        </p>
+	        
+	        <form id="form1" onsubmit="return validateForm()">
+	        	Email: <input type="text" id="email"><br>
+	        	Title: <input type="text" id="subject"><br>
+	        	Body:  <input class="body" style="height: 50px" type="text" id="body"><br>
+	        	<input type="submit">
+	        </form>
+	        
       </div>
       <div class="footer">
       		Property Apple Co.<br><br>
