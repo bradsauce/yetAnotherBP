@@ -88,8 +88,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.logo {
+	height: 60px;
+	width: 60px;
+}
 
+nav {
+	font-size: 150%;
+}
 
+nav ul{
+	background-color: #F3EADA;
+	width: 100%;
+}
+
+nav ul li {
+	margin-right: 50px;
+}
+
+.content {
+	text-align: center;
+	color: #A39580;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer {
+	margin-top: 5%;
+	margin-bottom: 0px;
+	background-color: #F3EADA;
+	width: 100%;
+	text-align: center;
+}
 
 
 

@@ -11,6 +11,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -19,11 +23,37 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>I would hope that this is HTML5 Boilerplate.</p>
+        <div class="header">
+	        <img class="logo" src="img/logo.jpg">
+	        <nav class="navbar" role="navigation">
+	        	<ul class="nav nav-pills">
+	  				<li role="presentation"><a href="index.html">Home</a></li>
+	  				<li role="presentation"><a href="product.html">Product</a></li>
+	  				<li role="presentation"><a href="order.html">Order Form</a></li>
+	  				<li role="presentation"><a href="about.html">About Us</a></li>
+	  				<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+	        <span style="clear:both; margin-bottom: 10px;"></span>
+        </div>
+        
+        <div class="content">
+	        <h1 style="text-align: center; color: #A39580;">Apple II</h1>
+	        <p class="lead">The newest innovation in computing, in your own home.</p>
+	        <img src="img/apple2.jpg">
+      </div>
+      <div class="footer">
+      		Property Apple Co.<br><br>
+      		April 1977
+      </div>
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <!--<script src="bootstrap/js/bootstrap.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>-->
+        
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
